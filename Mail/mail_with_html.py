@@ -34,9 +34,9 @@ def send_email(sender_email, sender_password, receiver_email, subject, html_file
     server.quit()
 
 # Example usage
-sender_email = 'suginkl@gmail.com'
-sender_password = 'gqklgxwicjjijwnf'
-receiver_email = 'suginkl@gmail.com'
+sender_email = 'sender_mail'
+sender_password = 'app_password'
+receiver_email = 'receiver_mail'
 subject = 'HTML File Test'
 html_file_path = 'D:\Thambidurai\pycharm_work_dir\PycharmProjects\pythonProject\Mail\demo.templatemonster.com-1709368894\index.html' # add your html file path
 html_file_path.replace("\\", "/")
